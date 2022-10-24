@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OptionsDiag</class>
+ <widget class="QDialog" name="OptionsDiag">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.447, y1:0, x2:0.436, y2:0.994318, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(77, 77, 77, 255));</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <property name="leftMargin">
+      <number>69</number>
+     </property>
+     <property name="topMargin">
+      <number>69</number>
+     </property>
+     <property name="rightMargin">
+      <number>69</number>
+     </property>
+     <property name="bottomMargin">
+      <number>69</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="restartGame">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border: 2px solid;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color: rgb(255, 110, 7);
+	border-radius: 12px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Restart the game</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeCurrentMenu">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border: 2px solid;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color: rgb(255, 110, 7);
+	border-radius: 12px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Close current menu</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exitGame">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border: 2px solid;
+	font: 700 11pt &quot;Segoe UI&quot;;
+	background-color: rgb(255, 110, 7);
+	border-radius: 12px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Exit the game</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
