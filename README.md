@@ -1,4 +1,4 @@
-# TicTacToe-With-AI-C-QT
+# TicTacToe-With-AI-QT-CPP
 Tic Tac Toe with AI(Algo) and GUI Made using QT CPP
 
 
